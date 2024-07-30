@@ -1,0 +1,31 @@
+
+
+<body>
+    <link rel="stylesheet" type="text/css" href="LogIn.css">
+    <center>
+    <h2 id="Round_display"></h2>
+    <h2 id="player1_display"></h2>
+    <h2 id="player2_display"></h2>
+
+    <div id="Answer_section"></div>
+
+    <label>
+        Operation:
+    <input type="text" placeholder="Operation(Addition, Subtraction, Multiplication, Division)" id="Operation">
+    </label>
+    <br> 
+    <label>
+        First Number:
+    <input type="number" placeholder="First Number" id="FirstNum">
+    </label>
+    <br>
+    <label> Second Number:
+    <input type="number" placeholder="Second Number" id="SecondNum">
+    </label>
+    <br>
+
+    <button onclick="Send()" style="width: 30%;">Send Question</button>
+    <h3 style="color: black;" id="Notice"></h3>
+    </center>
+    <script src="Game.js"></script>
+</body>
